@@ -6,7 +6,7 @@ export function stubTransform(extensionRegex = /.+\.(css|styl|less|sass|scss|png
     transform(_src, id) {
       if (extensionRegex.test(id)) {
         return {
-          code: 'module.exports = "flabada"',
+          code: 'module.exports = ""',
           map: null,
         }
       }
@@ -15,7 +15,7 @@ export function stubTransform(extensionRegex = /.+\.(css|styl|less|sass|scss|png
     load(id) {
       if (extensionRegex.test(id)) {
         return {
-          code: 'module.exports = "flabada"',
+          code: 'module.exports = ""',
           map: null,
         }
       }

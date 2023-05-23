@@ -1,6 +1,6 @@
 {
   "name": "vite-transform-stub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vite plugin to load files as stub",
   "license": "MIT",
   "homepage": "https://github.com/Vinccool96/vite-transform-stub#readme",
